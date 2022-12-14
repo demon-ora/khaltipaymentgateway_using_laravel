@@ -24,7 +24,7 @@ class PaymentController extends Controller
         curl_setopt($ch, CURLOPT_POSTFIELDS,$args);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 
-        $headers = ['Authorization: Key test_secret_key_4caee9e36c66484497c2d3b53e9675d4'];
+        $headers = ['Authorization: Key put your secret key'];
         curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
 
         // Response
