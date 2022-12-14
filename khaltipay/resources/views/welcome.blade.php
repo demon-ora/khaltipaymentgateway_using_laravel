@@ -12,7 +12,7 @@
     <script>
         var config = {
             // replace the publicKey with yours
-            "publicKey": "test_public_key_0904fbfdf87b48668973b8f99f312f42",
+            "publicKey": "put your public key",
             "productIdentity": "1234567890",
             "productName": "Dragon",
             "productUrl": "http://gameofthrones.wikia.com/wiki/Dragons",
